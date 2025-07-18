@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* index.css */
+body {
+  overflow-x: hidden;
+}
+
+
+@layer components {
+  .mycontainer {
+    @apply container mx-auto px-4 sm:px-6 md:px-10 lg:px-20 xl:px-32 2xl:px-40;
+  }
+}
